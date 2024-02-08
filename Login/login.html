@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./login.css">
+    <script src="https://kit.fontawesome.com/379529ccdb.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="../images/pngegg.png" type="image/x-icon">
+</head>
+<body>
+    <a href="../Home/home.html"  id="arrow"><i class="fa-solid fa-circle-arrow-left"></i></a>
+    <main>
+        <div id="cont">
+            <h1>~ Login ~</h1>
+            <form action="../Main/main.html">
+                <div class="row">
+                    <div class="left">
+                        <label>Email</label>
+                    </div>
+                    <div class="right">
+                        <input type="text" id="email" placeholder="email">
+                        <span id="eemail"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left">
+                        <label>Password</label>
+                    </div>
+                    <div class="right">
+                        <input type="password" id="pass" placeholder="password">
+                        <i class="fa-solid fa-eye-slash" id="passIcon"></i>
+                        <span id="epass"></span>
+                    </div>
+                </div>
+                <div class="submit">
+                    <button>Login</button>
+                </div>
+                <div id="invalidLogin">
+                    <span id="elogin"></span>
+                </div>
+            </form>
+        </div>
+    </main>
+    <script src="./login.js"></script>
+</body>
+</html>

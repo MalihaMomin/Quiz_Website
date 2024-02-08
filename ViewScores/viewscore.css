@@ -1,0 +1,266 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+    background-image: url("../images/img9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button {
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+
+
+/****************************************** NAVBAR ****************************************************/
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 4%;
+    background-color: black;
+    align-items: center;
+}
+
+nav div {
+    width: 30%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    /* color: #5E8E00; */
+    display: block;
+}
+
+#left a {
+    display: flex;
+    justify-content: flex-start;
+    gap: 3%;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #06A7BC;
+    margin: 0px;
+}
+
+#left a h1 {
+    margin: 0px;
+}
+
+#left img {
+    width: 70px;
+    height: 60px;
+    margin: 0px;
+}
+
+#center {
+    width: 40%;
+    margin-left: 100px;
+}
+
+#center #contents {
+    display: flex;
+    gap: 13%;
+    list-style-type: none;
+}
+
+#center #contents li {
+    padding: 3px;
+}
+
+#center #contents li:hover {
+    cursor: pointer;
+}
+
+#vs {
+    border-bottom: 3px solid #06A7BC;
+    border-radius: 4px;
+}
+
+#contents a {
+    padding: 0px;
+}
+
+#right {
+    display: flex;
+    gap: 2rem;
+    justify-content: end;
+}
+
+#right button {
+    /* width: 20%; */
+    /* height: 2.5rem; */
+    border-radius: 7px;
+    font-size: 1rem;
+    padding: 8px 20px;
+    background-color: red;
+    border-color: red;
+}
+
+#right a {
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+
+
+/****************************************** TESTLIST ****************************************************/
+#testlist #cont {
+    margin: 30px 90px;
+    padding: 5px 0px;
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    background-color: #06a7bc9c;
+}
+
+.notest {
+    background-color: transparent;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+.test {
+    border-radius: 30px;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.95);
+    color: white;
+    padding: 5px;
+}
+
+.test h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: goldenrod;
+    font-size: 1.7rem;
+}
+
+.test div {
+    display: flex;
+    justify-content: center;
+    /* height: 60px; */
+    /* align-items: center; */
+    gap: 9%;
+}
+
+.test h3 {
+    margin-top: 5px;
+}
+
+.test span {
+    color: lightgreen;
+}
+
+.test button {
+    width: 130px;
+    padding: 5px;
+    height: 40px;
+    background-color: crimson;
+    border-color: crimson;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+/****************************************** ANSWERS ****************************************************/
+#answers #answercont {
+    margin: 30px 150px;
+    padding: 30px 80px;
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    background-color: rgba(211, 211, 211, 0.911);
+}
+
+.correct {
+    background-color: lightgreen;
+    border-radius: 20px;
+}
+
+.incorrect {
+    /* border: 1px solid red; */
+    background-color: rgb(253, 142, 142);
+    border-radius: 20px;
+}
+
+#answercont h1 {
+    margin: 0px;
+    margin-top: 10px;
+    color: navy;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#answercont .details {
+    display: flex;
+    justify-content: center;
+    gap: 50%;
+}
+
+#answercont .details span {
+    color: navy;
+}
+
+#answercont hr {
+    border: 0.5px solid black;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+#answercont .questions {
+    padding: 20px;
+    margin: 10px;
+}
+
+.questions p {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.questions .q {
+    /* color: brown; */
+    font-weight: 600;
+}
+
+.questions ul {
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.questions h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* color: green; */
+}
+
+#answercont .ansbtn {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#answercont button {
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: gold;
+    border-color: gold;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+}

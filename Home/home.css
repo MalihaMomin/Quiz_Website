@@ -1,0 +1,185 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+}
+
+button {
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+
+
+/****************************************** NAVBAR ****************************************************/
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 4%;
+    background-color: black;
+    align-items: center;
+}
+
+nav div {
+    width: 30%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    /* color: #5E8E00; */
+    display: block;
+}
+
+#left a {
+    display: flex;
+    justify-content: flex-start;
+    gap: 3%;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #06A7BC;
+    margin: 0px;
+}
+
+#left a h1 {
+    margin: 0px;
+}
+
+#left img {
+    width: 70px;
+    height: 60px;
+    margin: 0px;
+}
+
+#center {
+    width: 40%;
+    margin-left: 100px;
+}
+
+#center #contents {
+    display: flex;
+    gap: 13%;
+    list-style-type: none;
+}
+
+#center #contents li {
+    padding: 3px;
+}
+
+#center #contents li:hover {
+    cursor: pointer;
+}
+
+#contents a {
+    padding: 0px;
+}
+
+#right {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: end;
+}
+
+#right button {
+    /* width: 20%; */
+    /* height: 2.5rem; */
+    border-radius: 7px;
+    font-size: 1rem;
+    padding: 8px 20px;
+}
+
+#right #login {
+    background-color: green;
+    border-color: green;
+}
+
+#right #signup {
+    background-color: crimson;
+    border-color: crimson;
+}
+
+#right a {
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+
+
+/****************************************** CONTAINER ****************************************************/
+#cont {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    width: 100%;
+    height: 75vh;
+    margin-top: 50px;
+}
+
+#cont #leftheadings {
+    width: 35%;
+    text-align: center;
+}
+
+#cont h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: navy;
+}
+
+#cont #welcome {
+    margin-top: 35px;
+}
+
+#cont h2 {
+    font-size: 2rem;
+    margin: 0px;
+}
+
+#leftheadings div {
+    margin-top: 50px;
+}
+
+#leftheadings button {
+    width: 370px;
+    padding: 7px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin: 0px;
+}
+
+#leftheadings #leftlogin {
+    background-color: green;
+    border-color: green;
+}
+
+#leftheadings #leftsignup {
+    background-color: crimson;
+    border-color: crimson;
+}
+
+#leftheadings p {
+    margin: 10px;
+    font-weight: bold;
+}
+
+#cont #img {
+    width: 45%;
+}
+
+#cont img {
+    width: 100%;
+    height: 100%;
+}

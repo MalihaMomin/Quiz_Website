@@ -1,0 +1,101 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../images/img8.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10%;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#arrow {
+    position: absolute;
+}
+
+#arrow i {
+    font-size: 3rem;
+    margin: 10px;
+    color: navy;
+    cursor: pointer;
+}
+
+#allinputs {
+    background-color: #001524f8;    
+    color: whitesmoke;
+    width: 30%;
+    padding: 50px 80px;
+    border-radius: 30px;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.left {
+    width: 40%;
+}
+
+label {
+    height: 100%;
+}
+
+.right {
+    width: 60%;
+}
+
+input {
+    width: 100%;
+    height: 20px;
+    padding: 5px;
+    border-radius: 7px;
+    border: none;
+    margin-bottom: 2px;
+}
+
+h1 {
+    color: #4FC0D0;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-size: 3rem;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    color: bisque;
+    background-color: green;
+    border-color: green;
+    border-radius: 25px;
+    /* font-weight: 550; */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+i {
+    margin-left: -30px;
+    color: black;
+    cursor: pointer;
+}
+
+span {
+    color: red;
+}

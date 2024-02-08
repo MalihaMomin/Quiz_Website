@@ -1,0 +1,113 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../images/img7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 10%; */
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#arrow {
+    position: absolute;
+}
+
+#arrow i {
+    font-size: 3rem;
+    margin: 10px;
+    color: navy;
+    cursor: pointer;
+}
+
+#cont {
+    background-color: rgba(31, 31, 31, 0.99);
+    color: white;
+    width: 23%;
+    padding: 50px 80px;
+    border-radius: 30px;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.left {
+    width: 30%;
+}
+
+label {
+    height: 100%;
+}
+
+.right {
+    width: 70%;
+}
+
+input {
+    width: 100%;
+    height: 20px;
+    padding: 5px;
+    border-radius: 7px;
+    border: none;
+    margin-bottom: 2px;
+}
+
+h1 {
+    /* color: rgb(67, 252, 95); */
+    /* color: rgb(236, 90, 90); */
+    color: lightgreen;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-size: 3rem;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-top: 15px;
+    width: 100%;
+    /* color: rgb(1, 77, 1); */
+    color: white;
+    background-color: rgb(236, 90, 90);
+    border-color: rgb(236, 90, 90);
+    border-radius: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+.row i {
+    margin-left: -30px;
+    color: black;
+    cursor: pointer;
+}
+
+span {
+    color: red;
+}
+
+#elogin {
+    margin-top: 5px;
+}
+
+#invalidLogin {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}

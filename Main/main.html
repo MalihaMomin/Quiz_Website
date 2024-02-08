@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&family=Pixelify+Sans&family=Playpen+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/379529ccdb.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="../images/pngegg.png" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <div id="left">
+            <a href="#">
+                <img src="../images/pngegg.png" alt="">
+                <h1>MCQ Portal</h1>
+            </a>
+        </div>
+        <div id="center">
+            <ul id="contents">
+                <li id="t"><a href="#">Tests</a></li>
+                <li id="vs"><a href="../ViewScores/viewscore.html">View Scores</a></li>
+                <li id="ins"><a href="../Instruction/instruction.html">Instructions</a></li>
+            </ul>
+        </div>
+        <div id="right">
+            <button><a href="../Home/home.html">Logout</a></button>
+        </div>
+    </nav>
+
+    <section id="testrow">
+        <div class="row">
+            <!-- <div class="cards">
+                <h3>Array</h3>
+                <h4>Subject - <span>Programming</span></h4>
+                <h4>Total Questions - <span>10</span></h4>
+                <h4>Total Marks - <span>100</span></h4>
+                <h4>Duration - <span>120 min</span></h4>
+                <h4>Date - <span>14-11-2023</span></h4>
+                <button class="startTest">Start Test</button>
+            </div> -->
+        </div>
+    </section>
+
+    <section id="testQuestions" class="hide">
+        <div class="test">
+            <div class="testDetails">
+                <!-- <div>
+                    <div></div>
+                    <div class="qtitle">Title</div>
+                    <div class="qdate">Date</div>
+                </div>
+                <div>
+                    <div>Subject -<span>Programming</span></div>
+                    <div>Marks -<span>100</span></div>
+                    <div>Duration -<span>60 min</span></div>
+                </div> -->
+            </div>
+            <hr>
+            <h1 class="timer"></h1>
+            <div class="qbtn">
+                <!-- <button class="questionNumber">1</button>
+                <button class="questionNumber">2</button>
+                <button class="questionNumber">3</button>
+                <button class="questionNumber">4</button>
+                <button class="questionNumber">5</button>
+                <button class="questionNumber">6</button>
+                <button class="questionNumber">7</button>
+                <button class="questionNumber">8</button>
+                <button class="questionNumber">9</button>
+                <button class="questionNumber">10</button> -->
+            </div>
+            <div class="cont">
+                <div class="questions">
+                    <div class="mainquestion">
+                        <!-- <p>Q. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <input type="radio" name="q" value="1" id=""> Option 1 <br>
+                        <input type="radio" name="q" value="2" id=""> Option 2 <br>
+                        <input type="radio" name="q" value="3" id=""> Option 3 <br>
+                        <input type="radio" name="q" value="4" id=""> Option 4 <br> -->
+                    </div>
+                    <div class="bcont">
+                        <button class="clearSelection">Clear Selection</button>
+                        <div class="bcontright">
+                            <button class="saveans">Save Answer</button>
+                            <button class="save">Save for Later</button>
+                            <button class="prev">Previous</button>
+                            <button class="next">Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="questionButtons">
+                <button id="finish">Finish</button>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="result" class="hide">
+        <div id="res">
+            <div class="resultcont">
+                <div class="finalresult">
+                    <!-- <h3>Array Test</h3>
+                    <h4>Total Questions - <span>10</span></h4>
+                    <h4>Correct - <span>8</span></h4>
+                    <h4>Incorrect - <span>2</span></h4>
+                    <h4>Total Marks - <span>100</span></h4>
+                    <h4>Marks Obtained - <span>100</span></h4> -->
+                </div>
+                <button class="ok">OK</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="./main.js"></script>
+</body>
+</html>

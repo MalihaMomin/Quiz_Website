@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Scores</title>
+    <link rel="stylesheet" href="./viewscore.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&family=Pixelify+Sans&family=Playpen+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/379529ccdb.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="../images/pngegg.png" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <div id="left">
+            <a href="../Main/main.html">
+                <img src="../images/pngegg.png" alt="">
+                <h1>MCQ Portal</h1>
+            </a>
+        </div>
+        <div id="center">
+            <ul id="contents">
+                <li id="t"><a href="../Main/main.html">Tests</a></li>
+                <li id="vs"><a href="#">View Scores</a></li>
+                <li id="ins"><a href="../Instruction/instruction.html">Instructions</a></li>
+            </ul>
+        </div>
+        <div id="right">
+            <button><a href="../Home/home.html">Logout</a></button>
+        </div>
+    </nav>
+
+    <section id="testlist">
+        <div id="cont">
+            <!-- <div class="test">
+                <h1>Array</h1>
+                <div>
+                    <h3>Programming</h3>
+                    <h3>14-11-23</h3>
+                    <h3>10 Qs</h3>
+                    <h3>30 min</h3>
+                    <h3><span>60</span> / 100 marks</h3>
+                    <button class="view">View Answers</button>
+                </div>
+            </div> -->
+        </div>
+
+        <div id="answers" class="hide">
+            <div id="answercont">
+                <div class="answerdetails">
+                    <div class="ansdet">
+                        <!-- <h1>Array</h1>
+                        <div class="details">
+                            <h3>Programming</h3>
+                            <h3>Marks - <span>60</span> / 100</h3>
+                        </div> -->
+                    </div>
+                    <hr>
+                    <div class="questionlist">
+                        <!-- <div class="questions">
+                            <p class="q">Q.1. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <p>Options:</p>
+                            <ul>
+                                <li>Option 1</li>
+                                <li>Option 2</li>
+                                <li>Option 3</li>
+                                <li>Option 4</li>
+                            </ul>
+                            <h4>Selected Option: 2</h4>
+                            <h4>Correct Option: 3</h4>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="ansbtn">
+                    <button id="back">Back</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./viewscore.js"></script>
+</body>
+</html>

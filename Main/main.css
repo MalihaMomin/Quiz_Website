@@ -1,0 +1,381 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+    background-color: lightgray;
+}
+
+button {
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+
+
+/****************************************** NAVBAR ****************************************************/
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 4%;
+    background-color: black;
+    align-items: center;
+}
+
+nav div {
+    width: 30%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    /* color: #5E8E00; */
+    display: block;
+}
+
+#left a {
+    display: flex;
+    justify-content: flex-start;
+    gap: 3%;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #06A7BC;
+    margin: 0px;
+}
+
+#left a h1 {
+    margin: 0px;
+}
+
+#left img {
+    width: 70px;
+    height: 60px;
+    margin: 0px;
+}
+
+#center {
+    width: 40%;
+    margin-left: 100px;
+}
+
+#center #contents {
+    display: flex;
+    gap: 13%;
+    list-style-type: none;
+}
+
+#center #contents li {
+    padding: 3px;
+}
+
+#center #contents li:hover {
+    cursor: pointer;
+}
+
+#t {
+    border-bottom: 3px solid #06A7BC;
+    border-radius: 4px;
+}
+
+#contents a {
+    padding: 0px;
+}
+
+#right {
+    display: flex;
+    gap: 2rem;
+    justify-content: end;
+}
+
+#right button {
+    /* width: 20%; */
+    /* height: 2.5rem; */
+    border-radius: 7px;
+    font-size: 1rem;
+    padding: 8px 20px;
+    background-color: red;
+    border-color: red;
+}
+
+#right a {
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+
+
+/****************************************** ROWS ****************************************************/
+#testrow {
+    background-image: url("../images/img9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 7%;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding: 3%;
+}
+
+.cards {
+    border: none;
+    border-radius: 20px;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.98);
+    color: white;
+    margin-bottom: 10%;
+}
+
+.cards h3 {
+    color: yellow;
+    font-size: 1.5rem;
+    margin: 0px;
+    text-align: center;
+}
+
+.cards h4 {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cards h4 span {
+    color: lightgreen;
+}
+
+.cards button {
+    width: 100%;
+    background-color: green;
+    border-color: green;
+    color: white;
+    /* font-weight: bold; */
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+
+/****************************************** TEST ****************************************************/
+.test {
+    background-color: lightgreen;
+    height: 100vh;
+    padding: 0rem 1.5rem;
+    padding-bottom: 0px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.testDetails {
+    padding: 1rem;
+}
+
+.testDetails div {
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    gap: 5%;
+    margin-bottom: 5px;
+}
+
+.testDetails div div {
+    font-size: 1.1rem;
+    text-align: center;
+    width: 100%;
+}
+
+.testDetails .qtitle {
+    font-size: 1.7rem;
+    font-weight: bolder;
+    color: purple;
+}
+
+.testDetails .qdate {
+    color: purple;
+    font-weight: bold;
+} 
+
+.testDetails span {
+    color: purple;
+    font-weight: bold;
+}
+
+.test hr {
+    width: 100%;
+    border: 0.5px solid black;
+}
+
+.test h1 {
+    font-size: 2rem;
+    color: red;
+    margin-top: 10px;
+}
+
+.test .qbtn button{
+    background-color: lightgray;
+    border-color: lightgray;
+    /* border: 1px solid black; */
+    border-radius: 100%;
+    color: black;
+    width: 30px;
+    height: 30px;
+    margin: 3px;
+}
+
+.test .cont {
+    display: flex;
+    justify-content: center;
+}
+
+.test .questions {
+    width: 70%;
+    border-radius: 25px;
+    /* background-color:rgba(230, 230, 250, 0.5); */
+    background-color: powderblue;
+    color: black;
+    padding: 2rem;
+    text-align: left;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.test .questions p {
+    margin-top: 0px;
+}
+
+.questions .bcont {
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+    /* justify-content: end; */
+}
+
+.questions .bcont button {
+    width: 150px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.questions .bcontright {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+.questions .clearSelection {
+    background-color: lightgreen;
+    border-color: lightgreen;
+}
+
+.questions .save {
+    background-color: gold;
+    border-color: gold;
+}
+
+.questions .prev {
+    background-color: sandybrown;
+    border-color: sandybrown;
+}
+
+.questions .next {
+    background-color: sandybrown;
+    border-color: sandybrown;
+}
+
+.questions .saveans {
+    background-color: greenyellow;
+    border-color: greenyellow;
+}
+
+.questions input {
+    margin-bottom: 7px;
+}
+
+.questions input:hover {
+    cursor: pointer;
+}
+
+.test .questionButtons {
+    display: flex;
+    justify-content: end;
+}
+
+.test #finish {
+    margin-top: 30px;
+    margin-right: 170px;
+    width: 200px;
+    padding: 7px;
+    border-radius: 20px;
+    background-color: red;
+    border-color: red;
+    color: white;
+    font-size: 1rem;
+}
+
+
+
+/****************************************** TEST RESULT ****************************************************/
+#res {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/13295064_5172658.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#result .resultcont {
+    width: 23%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 40px 60px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#result h3 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 0px;
+    color: lightgreen;
+}
+
+#result h4 {
+    text-align: left;
+}
+
+#result span {
+    font-size: 1.2rem;
+    color: lightseagreen;
+}
+
+#result button {
+    margin: 10px;
+    margin-bottom: 0px;
+    width: 90px;
+    padding: 5px;
+    background-color: purple;
+    border-color: purple;
+    color: white;
+    border-radius: 10px;
+}
